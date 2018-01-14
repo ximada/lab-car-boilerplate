@@ -1,1 +1,174 @@
-<!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'/>
+	<link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Lab< Car</title>
+</head>
+<body>
+	<!--Creabdo la barra de Navegación -->
+	 <header class="container-fluid">
+		<nav class="navbar navbar-default" >
+		  <div class="container-fluid ">
+			<div class="navbar-header" style="margin: 0; padding:0;">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+				<span class="sr-only"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			 </button>
+			 <img src="assets/images/logoForma.png" alt="logo" style="padding-top: 15%;">
+			</div>
+           
+           <!-- Menu que se va a ocultar -->
+           
+			<div class="collapse navbar-collapse" id="navbar-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Viaja</a></li>
+					<li><a href="#">Conduce</a></li>
+					<li><a class="btn btn-lg" data-toggle="modal" data-target="#myModal" type="button" href="#">Inicia sesión</a></li>
+				</ul>
+			</div>    
+		</div>	
+	  </nav>
+    </header>
+
+    <!-- Modal inicio de sesión -->
+    <div class="modal fade " id="myModal" ">
+    	<div class="modal-dialog" ;">
+    		<div class="modal-content" style="background-color:#08AC9D; width:90%;">
+
+    			<!-- Encabezado de la ventana -->
+    			<div class="modal-header" style="text-align: center; ">
+    				<button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color: #fff;">&times;</button>
+    				<img src="assets/images/usuario.jpg " width="100" height="100" alt="image">
+    			</div>
+    			<!-- Contenido de la ventana modal -->
+    			<div class="modal-body" >
+    				<div style="text-align: center; height:40vh; background-color:#f9f4f4; width:50%; border-radius: 2%; padding: 4%; margin-left: 25%;" >
+    				<i style="color:#6b6565;" class="fa fa-user fa-2x" aria-hidden="true"></i>
+    				 <input  type="text" placeholder="Username" >
+    				 <br>
+    				<i style="color:#6b6565;" class="fa fa-lock fa-2x" aria-hidden="true"></i>
+    				<input style="" type="text" placeholder="Password">
+    				<br>
+    				<button class="btn" type="submit" style="background-color:#FFC107; color:#fff; margin-top:5%; ">LOGING</button>
+    				<p>Forgot password?<a style="color: red;" href="#">Click Here</a></p>
+    				</div>
+
+    			</div>
+    		</div>
+    	</div>
+    </div>
+  
+      <!-- primera sección imagen Taxi-->
+  <div class="container-fluid">    
+   <div class="row col-image ">
+   		<div class="div-taxi col-md-4 col-md-push-8 col-xs-d-n ">
+   		  <h2>Disfrura del viaje <br> Eres dueño de tu tiempo</h2>
+   		   <h3>Viaja con <strong> Lab&#60;ar</strong></h3>
+   			<button class="btn btn-default" type="submit">REGISTRATE</button>
+   			<br>	
+   			<h4>O bien</h4>
+   			<br>
+   			<button class="btn btn-default" type="submit">Conviertete en un conductor</button>	
+   		</div>
+   </div>
+   <!-- Segunda sección imagen telefono -->
+   <div class="row div-amarillo">
+   	   <div class="col-md-10" style="border-style: solid; border-width: 1px 1px 1px 0; height: 60vh; margin-top:2%; border-color:#fff; ">
+   		<div class=" col-md-3 col-md-push-1 div-phone" style="margin-top:5%;">
+   			<img  class="img-responsive" src="assets/images/iPhone6Plus.png" alt="images" style=" ">
+   		</div>
+   		<div class="col-md-3 col-md-push-2 div-p">
+   			<h2 style="color:#fff;">Descarga la nueva app</h2>
+   			<p style="color:#fff;">La versión actulizada de LabCara esta llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
+   			<p style="color:#fff;">Con solo tocar un botón, llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+   		</div>
+   	  </div>
+   </div>
+    <!-- Tercera sección imagen del Conductor -->
+   <div class="row image-conductor">
+   		<div class=" col-md-4 col-md-push-8 labCar" >
+   			    <h2>Conduce cuando quieras</h2>
+   			    <br>	
+   				<p>LabCar es una opcion flexible para alcanzar tus metas finacieras</p>
+   				<button class=" botonCond btn btn-default" type="submit">Conviértete en un conductor</button>
+   		</div>
+   </div>
+   <!-- Cuarta sección mapa -->
+   <div class="row div-amarillo2">
+   		<div class="col-md-6 div-buttons col-xs-12" style="padding-left:5%; margin-top:5%;">
+   		  <h2>Tarifas</h2>
+   		  <h3>Consulta las tarifas labCar aquí</h3>
+   		  <br>
+   		  <img style="padding-right:2%;" src="assets/images/shape.png" alt="images"></img>
+   		 
+   		  <input class="ruta" type="text" class=" " placeholder="Ingresa su punto de partida"  >
+   		  <br>
+   		  <br>
+   		  <img style="padding-right:2%;" src="assets/images/shape2.png" alt="images"></img>
+   		  <input class="ruta" type="text" placeholder="Ingrese su destino">
+   		  <br>
+   		  <br>
+   		  <button style="margin-left:15%;  " class="btn btn-default" type="submit"><strong>¡Traza tu ruta!</strong></button> 
+   	   </div>
+   	   <div class="col-xs-6 col-md-4 col-md-push-1  map">
+   	   	<div class="div-map "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64550993.72458707!2d-113.26562432716496!3d-9.074696637346202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1ses!2smx!4v1515768743431" width="380" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div></div>
+   </div>  
+  </div>
+
+  <footer class="row footer-grey ">
+  	<div class="div-logo" style="padding:4% 0 1% 8.5%;"><img src="assets/images/logoBlanco.png" alt="logo"></div>
+
+  	<div class="col-md-10 col-md-push-1 grey2" >
+  		<div class=" col-lg-3 " style="padding-top: 27%;">
+  		  <i class="fa fa-facebook" aria-hidden="true"></i>
+  		  <i class="fa fa-twitter" aria-hidden="true"></i>
+  		  <i class="fa fa-linkedin" aria-hidden="true"></i>
+  		  <i class="fa fa-apple" aria-hidden="true"></i>
+  		  <i class="fa fa-play" aria-hidden="true"></i>
+  		</div>
+  		<ul class="col-md-3" >
+  		  <li><a href="#">Viaja</a></li>
+  		  <li><a href="#">Conduce</a></li>
+  		  <li><a href="#">Ciudades</a></li>
+  		  <li><a href="#">Paises</a></li>
+  		  <li><a href="#">Entregas</a></li>
+  		  <li><a href="#">Cómo funciona?</a></li>
+  		  <li><a href="#">Paises</a></li>
+  		  <li><a href="#">Seguridad</a></li>
+  		</ul>
+
+  		<ul class="col-md-3">
+  		  <li><a href="#">Oportunidades</a></li>
+  		  <li><a href="#">Nuetra Historia</a></li>
+  		  <li><a href="#">API de LabCar</a></li>
+  		  <li><a href="#">Eventos</a></li>
+  		  <li><a href="#">Desarrolladores</a></li>
+  		  <li><a href="#">Servicios</a></li>
+  		  <li><a href="#">Laboratoria</a></li>
+  		  <li><a href="#">Coders</a></li>
+  		</ul>
+  		<div class=" col-md-2 images-app" style="padding-top: 20%;">
+  		  <img class=""  src="assets/images/appstore.png" alt="image" style="width: 80%;">
+  	      <img class=" "  src="assets/images/enBadgeWebGeneric.png" alt="image" style="width: 80%;">
+  	   </div>
+  	</div>
+  	<div class=" col-md-12 derechos" style="padding:0 0 0 8.5%;" ><p>&#169;2017 LabCar technologies Inc.</p></div>
+  </footer>
+
+
+
+	<script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
