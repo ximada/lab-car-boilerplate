@@ -1,6 +1,7 @@
 
 body {
 	font-family: 'Asap', sans-serif;
+	margin-left: 3%;
 }
 /* Estilos lista del footer */
 ul {
@@ -122,7 +123,7 @@ h4::after {
 .footer-grey {
 	background-color: #2B2B2B;
 	height: 70vh;
-	width: 99%;
+	width: 98%;
 }
 
 /* Estilo de iconos */
