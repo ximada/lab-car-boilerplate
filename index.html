@@ -68,23 +68,32 @@
       <!-- primera sección imagen Taxi-->
   <div class="container-fluid">    
    <div class="row col-image ">
-   		<div class="div-taxi col-md-4 col-md-push-8 col-xs-d-n ">
+   		<div class="div-taxi col-md-4 col-md-push-8 hidden-xs ">
    		  <h2>Disfrura del viaje <br> Eres dueño de tu tiempo</h2>
    		   <h3>Viaja con <strong> Lab&#60;ar</strong></h3>
    			<button class="btn btn-default" type="submit">REGISTRATE</button>
    			<br>	
    			<h4>O bien</h4>
    			<br>
-   			<button class="btn btn-default" type="submit">Conviertete en un conductor</button>	
+   			<button class="btn btn-default" type="submit">Conviertete en un conductor</button>
+   			
    		</div>
+   		<div class="mobile div-taxi col-xs-9 col-xs-push-3 visible-xs" style="margin-top:40%;padding-left:8%;">
+   				<h2>Comienza a viajar</h2>
+   				<h3>con Lab&#60;ar</h3>
+   				<br>
+   				<button class="btn btn-default" type="submit">Descarga el app</button>
+   			</div>
    </div>
    <!-- Segunda sección imagen telefono -->
    <div class="row div-amarillo">
-   	   <div class="col-md-10" style="border-style: solid; border-width: 1px 1px 1px 0; height: 60vh; margin-top:2%; border-color:#fff; ">
-   		<div class=" col-md-3 col-md-push-1 div-phone" style="margin-top:5%;">
+   	   <div class="col-md-10 col-xs-11" style="border-style: solid; border-width: 1px 1px 1px 0; height: 60vh; margin-top:2%; border-color:#fff; ">
+   		<div class=" col-md-3 col-md-push-1 col-xs-9 col-xs-push-1 div-phone" style="margin-top:5%;">
+   			<h3 class="visible-xs" style="color: #fff;">La nueva app</h3>
    			<img  class="img-responsive" src="assets/images/iPhone6Plus.png" alt="images" style=" ">
    		</div>
-   		<div class="col-md-3 col-md-push-2 div-p">
+   		 <div class="visible-xs col-xs-12 h4" style="color: #fff; margin-top: 10%;">Llega a tu destino aún más rápido</div>
+   		<div class="col-md-3 col-md-push-2 hidden-xs div-p">
    			<h2 style="color:#fff;">Descarga la nueva app</h2>
    			<p style="color:#fff;">La versión actulizada de LabCara esta llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
    			<p style="color:#fff;">Con solo tocar un botón, llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
@@ -117,23 +126,23 @@
    		  <br>
    		  <button style="margin-left:15%;  " class="btn btn-default" type="submit"><strong>¡Traza tu ruta!</strong></button> 
    	   </div>
-   	   <div class="col-xs-6 col-md-4 col-md-push-1  map">
-   	   	<div class="div-map "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64550993.72458707!2d-113.26562432716496!3d-9.074696637346202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1ses!2smx!4v1515768743431" width="380" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div></div>
+   	   <div class="col-xs-12 col-md-4 col-md-push-1  map">
+   	   	<div class="div-map col-xs-12 "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64550993.72458707!2d-113.26562432716496!3d-9.074696637346202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1ses!2smx!4v1515768743431" width="380" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div></div>
    </div>  
   </div>
 
   <footer class="row footer-grey ">
   	<div class="div-logo" style="padding:4% 0 1% 8.5%;"><img src="assets/images/logoBlanco.png" alt="logo"></div>
 
-  	<div class="col-md-10 col-md-push-1 grey2" >
-  		<div class=" col-lg-3 " style="padding-top: 27%;">
+  	<div class="col-md-10 col-md-push-1 col-xs-10 col-xs-push-1 grey2" >
+  		<div class=" col-lg-3 col-xs-4 col-xs-push-4" style="padding-top: 27%;">
   		  <i class="fa fa-facebook" aria-hidden="true"></i>
   		  <i class="fa fa-twitter" aria-hidden="true"></i>
   		  <i class="fa fa-linkedin" aria-hidden="true"></i>
   		  <i class="fa fa-apple" aria-hidden="true"></i>
   		  <i class="fa fa-play" aria-hidden="true"></i>
   		</div>
-  		<ul class="col-md-3" >
+  		<ul class="col-md-3 col-xs-3 col-xs-pull-5" >
   		  <li><a href="#">Viaja</a></li>
   		  <li><a href="#">Conduce</a></li>
   		  <li><a href="#">Ciudades</a></li>
@@ -144,7 +153,7 @@
   		  <li><a href="#">Seguridad</a></li>
   		</ul>
 
-  		<ul class="col-md-3">
+  		<ul class="col-md-3 col-xs-4 hidden-xs">
   		  <li><a href="#">Oportunidades</a></li>
   		  <li><a href="#">Nuetra Historia</a></li>
   		  <li><a href="#">API de LabCar</a></li>
@@ -154,12 +163,12 @@
   		  <li><a href="#">Laboratoria</a></li>
   		  <li><a href="#">Coders</a></li>
   		</ul>
-  		<div class=" col-md-2 images-app" style="padding-top: 20%;">
+  		<div class=" col-md-2 images-app col-xs-5" style="padding-top: 20%;">
   		  <img class=""  src="assets/images/appstore.png" alt="image" style="width: 80%;">
   	      <img class=" "  src="assets/images/enBadgeWebGeneric.png" alt="image" style="width: 80%;">
   	   </div>
   	</div>
-  	<div class=" col-md-12 derechos" style="padding:0 0 0 8.5%;" ><p>&#169;2017 LabCar technologies Inc.</p></div>
+  	<div class=" col-md-12 col-xs-12 derechos" style="padding:0 0 0 8.5%;" ><p>&#169;2017 LabCar technologies Inc.</p></div>
   </footer>
 
 
