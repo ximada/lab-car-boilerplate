@@ -51,13 +51,13 @@
     			<div class="modal-body" >
     				<div style="text-align: center; height:40vh; background-color:#f9f4f4; width:50%; border-radius: 2%; padding: 4%; margin-left: 25%;" >
     				<i style="color:#6b6565;" class="fa fa-user fa-2x" aria-hidden="true"></i>
-    				 <input  type="text" placeholder="Username" >
+    				 <input style="width: 80%;" type="text" placeholder="Username" >
     				 <br>
     				<i style="color:#6b6565;" class="fa fa-lock fa-2x" aria-hidden="true"></i>
-    				<input style="" type="text" placeholder="Password">
+    				<input style="width: 80%;" type="text" placeholder="Password">
     				<br>
-    				<button class="btn" type="submit" style="background-color:#FFC107; color:#fff; margin-top:5%; ">LOGING</button>
-    				<p>Forgot password?<a style="color: red;" href="#">Click Here</a></p>
+    				<button class="btn" type="submit" style="background-color:#FFC107; color:#fff; margin-top:10%; ">LOGING</button>
+    				<p style="padding-top: 10%;">Forgot password?<a style="color: red;" href="#">Click Here</a></p>
     				</div>
 
     			</div>
@@ -68,7 +68,7 @@
       <!-- primera sección imagen Taxi-->
   <div class="container-fluid">    
    <div class="row col-image ">
-   		<div class="div-taxi col-md-4 col-md-push-8 hidden-xs ">
+   		<div class="div-taxi col-md-4 col-md-push-8 col-sm-5 col-sm-push-7 hidden-xs ">
    		  <h2>Disfrura del viaje <br> Eres dueño de tu tiempo</h2>
    		   <h3>Viaja con <strong> Lab&#60;ar</strong></h3>
    			<button class="btn btn-default" type="submit">REGISTRATE</button>
@@ -88,7 +88,7 @@
    <!-- Segunda sección imagen telefono -->
    <div class="row div-amarillo">
    	   <div class="col-md-10 col-xs-11" style="border-style: solid; border-width: 1px 1px 1px 0; height: 60vh; margin-top:2%; border-color:#fff; ">
-   		<div class=" col-md-3 col-md-push-1 col-xs-9 col-xs-push-1 div-phone" style="margin-top:5%;">
+   		<div class=" col-md-3 col-md-push-1 col-sm-6 col-xs-9 col-xs-push-1 div-phone" style="margin-top:5%;">
    			<h3 class="visible-xs" style="color: #fff;">La nueva app</h3>
    			<img  class="img-responsive" src="assets/images/iPhone6Plus.png" alt="images" style=" ">
    		</div>
@@ -111,7 +111,7 @@
    </div>
    <!-- Cuarta sección mapa -->
    <div class="row div-amarillo2">
-   		<div class="col-md-6 div-buttons col-xs-12" style="padding-left:5%; margin-top:5%;">
+   	 <div class="col-md-6 col-sm-10 col-sm-push-1 div-buttons col-xs-12" style="padding-left:5%; margin-top:5%;">
    		  <h2>Tarifas</h2>
    		  <h3>Consulta las tarifas labCar aquí</h3>
    		  <br>
@@ -124,25 +124,35 @@
    		  <input class="ruta" type="text" placeholder="Ingrese su destino">
    		  <br>
    		  <br>
-   		  <button style="margin-left:15%;  " class="btn btn-default" type="submit"><strong>¡Traza tu ruta!</strong></button> 
-   	   </div>
-   	   <div class="col-xs-12 col-md-4 col-md-push-1  map">
-   	   	<div class="div-map col-xs-12 "><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64550993.72458707!2d-113.26562432716496!3d-9.074696637346202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1ses!2smx!4v1515768743431" width="380" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div></div>
-   </div>  
-  </div>
+   		  <button style="margin-left:15%;  " class="btn btn-default" type="submit"><strong>¡Traza tu ruta!</strong>
+   		  </button> 
+   	 </div>
+  
+   	 <div class="col-xs-12 col-md-4 col-md-push-1   map">
+   	   	<div class="div-map col-xs-12 ">
+   	   		<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d64550993.72458707!2d-113.26562432716496!3d-9.074696637346202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90f99effb40af535%3A0xd2673dbf02a5b69c!2sLatin+America!5e0!3m2!1ses!2smx!4v1515768743431"  frameborder="0" style="border:0; width: 100%; height: 50vh;" allowfullscreen>
+   	   		</iframe>
+   	   	</div>
 
-  <footer class="row footer-grey ">
+   	 </div>
+   </div>
+</div>
+
+
+
+  <footer class="row footer-grey hidden-xs ">
   	<div class="div-logo" style="padding:4% 0 1% 8.5%;"><img src="assets/images/logoBlanco.png" alt="logo"></div>
 
-  	<div class="col-md-10 col-md-push-1 col-xs-10 col-xs-push-1 grey2" >
-  		<div class=" col-lg-3 col-xs-4 col-xs-push-4" style="padding-top: 27%;">
+  	<div class="col-md-11 col-md-push-1 col-sm-12  grey2" >
+  		<div class=" col-md-3 col-sm-3" style="padding-top: 27%;">
   		  <i class="fa fa-facebook" aria-hidden="true"></i>
   		  <i class="fa fa-twitter" aria-hidden="true"></i>
   		  <i class="fa fa-linkedin" aria-hidden="true"></i>
   		  <i class="fa fa-apple" aria-hidden="true"></i>
   		  <i class="fa fa-play" aria-hidden="true"></i>
   		</div>
-  		<ul class="col-md-3 col-xs-3 col-xs-pull-5" >
+  		<div class="col-md-3 col-sm-3  " >
+  		<ul>
   		  <li><a href="#">Viaja</a></li>
   		  <li><a href="#">Conduce</a></li>
   		  <li><a href="#">Ciudades</a></li>
@@ -152,8 +162,9 @@
   		  <li><a href="#">Paises</a></li>
   		  <li><a href="#">Seguridad</a></li>
   		</ul>
-
-  		<ul class="col-md-3 col-xs-4 hidden-xs">
+  	   </div>
+       <div class="col-md-3 col-sm-3 ">
+  		<ul>
   		  <li><a href="#">Oportunidades</a></li>
   		  <li><a href="#">Nuetra Historia</a></li>
   		  <li><a href="#">API de LabCar</a></li>
@@ -163,12 +174,48 @@
   		  <li><a href="#">Laboratoria</a></li>
   		  <li><a href="#">Coders</a></li>
   		</ul>
-  		<div class=" col-md-2 images-app col-xs-5" style="padding-top: 20%;">
+  	  </div>
+  		<div class=" col-md-2 col-sm-3 images-app  " style="padding-top: 20%;">
   		  <img class=""  src="assets/images/appstore.png" alt="image" style="width: 80%;">
   	      <img class=" "  src="assets/images/enBadgeWebGeneric.png" alt="image" style="width: 80%;">
   	   </div>
   	</div>
-  	<div class=" col-md-12 col-xs-12 derechos" style="padding:0 0 0 8.5%;" ><p>&#169;2017 LabCar technologies Inc.</p></div>
+  	<div class=" col-md-12  derechos" style="padding:0 0 0 8.5%;" ><p>&#169;2017 LabCar technologies Inc.</p></div>
+  </footer>
+
+ <!-- Footer Mobile -->
+  <footer class="row footer-grey visible-xs" style="width: 97%;">
+  	<div class="div-logo" style="padding:4% 0 1% 8.5%;"><img src="assets/images/logoBlanco.png" alt="logo"></div>
+
+  	<div class="   grey2" >
+  		<div class="col-xs-6" >
+  		<ul>
+  		  <li><a href="#">Viaja</a></li>
+  		  <li><a href="#">Conduce</a></li>
+  		  <li><a href="#">Ciudades</a></li>
+  		  <li><a href="#">Paises</a></li>
+  		  <li><a href="#">Entregas</a></li>
+  		  <li><a href="#">Cómo funciona?</a></li>
+  		  <li><a href="#">Paises</a></li>
+  		  <li><a href="#">Seguridad</a></li>
+  		</ul>
+  	   </div>
+  		<div class="col-xs-6 " style="padding-top: 27%;">
+  		  <i class="fa fa-facebook" aria-hidden="true"></i>
+  		  <i class="fa fa-twitter" aria-hidden="true"></i>
+  		  <i class="fa fa-linkedin" aria-hidden="true"></i>
+  		  <i class="fa fa-apple" aria-hidden="true"></i>
+  		  <i class="fa fa-play" aria-hidden="true"></i>
+  		  <div class="  images-app  " style="padding-top: 20%;">
+  		  <img class=""  src="assets/images/appstore.png" alt="image" style="width: 80%;">
+  	      <img class=" "  src="assets/images/enBadgeWebGeneric.png" alt="image" style="width: 80%;">
+  	     </div>
+  		</div>
+  		
+      
+  		
+  	</div>
+  	<div class=" col-md-12  derechos" style="padding:0 0 0 8.5%;" ><p>&#169;2017 LabCar technologies Inc.</p></div>
   </footer>
 
 

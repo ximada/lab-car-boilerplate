@@ -107,11 +107,15 @@ h4::after {
 
 
 .div-map {
+
 	padding: 2%;
 	border: 1px solid #fff;
 	margin-top: 10%;
 }
 
+.map {
+	background-color:#FFC107; 
+}
 
 
 
