@@ -8,9 +8,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<title>Lab< Car</title>
+	<link rel="shortcut icon" href="assets/images/favLab.ico" />
 </head>
 <body>
-	<!--Creabdo la barra de Navegación -->
+	<!--Creando la barra de Navegación -->
 	 <header class="container-fluid" >
 		<nav class="navbar navbar-default" >
 		  <div class="container-fluid ">
@@ -40,7 +41,7 @@
     <!-- Modal inicio de sesión -->
     <div class="modal fade " id="myModal" ">
     	<div class="modal-dialog" ;">
-    		<div class="modal-content" style="background-color:#08AC9D; width:90%;">
+    		<div class="modal-content" style="background-color:rgba(32, 156, 167, .5); width:90%;">
 
     			<!-- Encabezado de la ventana -->
     			<div class="modal-header" style="text-align: center; ">
@@ -71,7 +72,7 @@
    		<div class="div-taxi col-md-4 col-md-push-8 col-sm-5 col-sm-push-7 hidden-xs ">
    		  <h2>Disfrura del viaje <br> Eres dueño de tu tiempo</h2>
    		   <h3>Viaja con <strong> Lab&#60;ar</strong></h3>
-   			<button class="btn btn-default" type="submit">REGISTRATE</button>
+   			<button class="btn btn-default" type="submit" data-toggle="modal" data-target="#myModal-2">REGISTRATE</button>
    			<br>	
    			<h4>O bien</h4>
    			<br>
@@ -218,6 +219,59 @@
   	</div>
   	<div class=" col-md-12  derechos" style="padding:0 0 0 8.5%;" ><p>&#169;2017 LabCar technologies Inc.</p></div>
   </footer>
+
+   <!-- Modal Resgitrate -->
+    <div class="modal fade " id="myModal-2" ">
+    	<div class="modal-dialog" ;">
+    		<div class="modal-content" style="background-color:rgba(32, 156, 167, .5); width:70%;">
+
+    			<!-- Encabezado de la ventana -->
+    			<div class="modal-header" style="text-align: center; ">
+    				<button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color: ;">&times;</button>
+            <div class="h2">Ya tienes una cuenta?</div>
+    				
+    			</div>
+    			<!-- Contenido de la ventana modal -->
+    			<div class="modal-body" >
+    				<div>
+              
+              <p class="p-reg">O CREA UNA CUENTA NUEVA</p>
+              <div class="input-group">
+                
+                <input type="text" class="form-control" placeholder="Nombre" aria-describedby="basic-addon1" style="width: 50%;">
+                <input type="text" class="form-control" placeholder="Apellido" aria-describedby="basic-addon1" style="width: 50%;">
+                </div>
+
+              <div class="input-group">
+               <input type="text" class="form-control" placeholder="Correo Electronico:" aria-describedby="basic-addon2">
+               <span class="input-group-addon" id="basic-addon2">@example.com</span>
+             </div>
+
+             <div class="input-group">
+              <input type="text" class="form-control" placeholder="Telefono" aria-describedby="basic-addon1" >
+             </div>
+
+             <div class="input-group" >
+              <input type="text" class="form-control" placeholder="Ciudad" aria-describedby="basic-addon1" >
+             </div>
+
+             <div class="input-group">
+              <input type="text" class="form-control" placeholder="(Opcional) Código de invitación" aria-describedby="basic-addon1">
+             </div>
+
+             <select name="" id="" style="width: 100%; height: 5vh;">
+              <option value="">Cómo te enteraste de nosotros?</option>
+              <option value="">Anuncio</option>
+              <option value="">Internet</option>
+              <option value="">Facebock</option> 
+             </select>
+             <button class="btn btn-default btn-blue" type="submit" style="width:100%;">Enviar</button>    				
+    				</div>
+
+    			</div>
+    		</div>
+    	</div>
+    </div>
 
 
 

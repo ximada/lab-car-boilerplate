@@ -33,6 +33,7 @@ h4::after {
 	border-color: transparent;
 }
 
+
 .navbar-default {
     background-color: #fff;    
 }
@@ -150,3 +151,27 @@ h4::after {
 .derechos {
 	color: #fff;
 }
+/* Estlos Modal Registrate */
+.input-group {
+	width: 100%;
+	padding-bottom: 2%;
+}
+.btn-blue {
+	background-color: #1052CD;
+	color: #051432;
+	margin-top: 2%;
+	font-weight: bolder;
+ }
+
+}
+.h2 {
+	background-color: #051432;
+	border-radius: 5%;
+	color: #fff;
+	text-align: center;
+}
+ .p-reg {
+ 	text-align: center;
+ 	color: #051432;
+ 	font-weight: bolder;
+ }
